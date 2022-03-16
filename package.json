@@ -1,0 +1,17 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "dev": "yarn tailwindcss -i ./src/tailwind.css -o ./weather/output.css --watch"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
